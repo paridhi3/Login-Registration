@@ -16,9 +16,9 @@ A simple Java project for user login and registration system.
    - CSS
    - JavaScript
 2. **Backend**:
-  - Java
-  - Eclipse IDE
-  - MySQL 
+     - Java
+     - Eclipse IDE
+     - MySQL 
 
 ## Requirements
 
