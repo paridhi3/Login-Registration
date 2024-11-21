@@ -4,10 +4,24 @@ A simple Java project for user login and registration system.
 
 ## Features
 
-- **User Registration**: Allows new users to create an account by providing necessary information such as username, email and password.
-- **User Login**: Allows registered users to log in using their username and password.
-- **Validation**: Ensures that the user inputs are valid and secure.
-- **Error Handling**: Provides proper error messages when incorrect information is provided.
+### **User Registration**
+- Enables new users to create an account by entering their **username**, **email**, and **password**.  
+- Stores user details securely in a **MySQL database**.  
+- Provides user feedback:
+  - **Success**: Displays a popup and an on-page message confirming successful registration.  
+  - Automatically redirects the user to the **Login page**.  
+
+### **User Login**
+- Allows registered users to log in with their **username** and **password**.  
+- Validates credentials:
+  - **Failure**: Displays an `Invalid User` message for incorrect credentials.  
+  - **Success**: Redirects the user to a personalized **Welcome page** displaying `username`.  
+
+### **User Logout**
+- Logs the user out by invalidating the current session.  
+- Provides user feedback:
+  - Displays a popup confirming a successful logout.  
+  - Redirects the user to the **Home page**.  
 
 ## Technologies/Tools Used
 
