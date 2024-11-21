@@ -4,7 +4,7 @@ A simple Java project for user login and registration system.
 
 ## Demo
 <div align="center">
-<img src="src/main/webapp/images/demo.webm" width="90%" style="border-radius: 16px;"/>
+<img src="src/main/webapp/images/demo.gif" width="90%" style="border-radius: 16px;"/>
 </div>
 
 ## Features
