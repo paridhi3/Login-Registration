@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9aebdd;
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #128494;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
+.tech-stack {
+	margin-top: 0px;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.emoji {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #128494;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    color: #128494;
+}
+
+.links a:hover {
+    color: #128494;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.githublinks a {
+    text-decoration: none;
+    color: #128494;
+    transition: color 0.3s ease;
+    color: #128494;
+}
+
+.githublinks a:hover {
+	text-decoration: underline;
+    color: black;
+}
+
+.desc {
+	margin-left: 80px; 
+    margin-right: 80px; 
+}
